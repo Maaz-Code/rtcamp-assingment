@@ -1,12 +1,3 @@
-function sendMail() {
-    var link = "mailto:ahmedmaaz73@gmail.com"
-             + "&subject=" + encodeURIComponent("Github Timeline")
-             + "&body=" + encodeURIComponent(document.getElementById('username').value)
-    ;
-    
-    window.location.href = link;
-}
- 
 dayjs.extend(dayjs_plugin_relativeTime)
 let page = 1
 
